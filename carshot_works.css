@@ -1,0 +1,95 @@
+/* 重置一些默认的样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('src/bg/868.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 1.6;
+}
+ 
+header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #881188;
+}
+ 
+header nav ul {
+    background-color: #FFCC11;
+    list-style: none;
+    position: relative;
+    top: 30px;
+    padding: 10px 0;
+}
+ 
+nav ul li {
+    color: #ffffff;
+    display: inline;
+    margin: 0 15px;
+}
+ 
+nav ul li a {
+    text-decoration: none;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFFFFFA0;
+    border-radius: 10px;
+}
+ 
+h2 {
+    color: #333333;
+}
+
+figure {
+    border: thin #FFCC11 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+    padding: 5px;
+    margin: auto;
+}
+
+img {
+    max-width: 500px;
+}
+
+figcaption {
+    background-color: #FFCC11;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+ 
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+del {
+    text-decoration: line-through;
+    color: inherit;
+}
