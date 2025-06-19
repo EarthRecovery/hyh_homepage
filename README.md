@@ -1,1 +1,1 @@
-## There has no src/ and carshot/ golders in the git repository. 
+## There has no src/ and carshot/ folders in the git repository. 
